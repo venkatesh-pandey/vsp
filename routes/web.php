@@ -2,6 +2,10 @@
 use App\Http\Controllers\PrinterController;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\CartridgeController;
+
+Route::resource('cartridges', CartridgeController::class);
+
 Route::view('/', 'welcome');
 
 Route::view('dashboard', 'dashboard')
