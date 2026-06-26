@@ -22,7 +22,7 @@
 <div class="col-md-3">
 <div class="small-box bg-primary">
 <div class="inner">
-<h3>125</h3>
+<h3>{{ $totalPrinters }}</h3>
 <p>Total Printers</p>
 </div>
 <div class="icon">
@@ -34,7 +34,7 @@
 <div class="col-md-3">
 <div class="small-box bg-success">
 <div class="inner">
-<h3>86</h3>
+<h3>{{ $totalCartridges }}</h3>
 <p>Total Cartridges</p>
 </div>
 <div class="icon">
@@ -58,7 +58,7 @@
 <div class="col-md-3">
 <div class="small-box bg-danger">
 <div class="inner">
-<h3>₹42,500</h3>
+<h3>{{ $totalVendors }}</h3>
 <p>Monthly Cost</p>
 </div>
 <div class="icon">

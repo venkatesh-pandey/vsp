@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'Venkatesh',
+    'title' => 'AdminLTE 3',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -63,12 +63,10 @@ return [
     |
     */
 
-   'logo' => '<b>VSP</b>',
+    'logo' => '<b>VSP</b>',
 'logo_img' => 'logo.jpeg',
 'logo_img_class' => 'brand-image img-circle elevation-3',
-'logo_img_xl' => null,
-'logo_img_xl_class' => '',
-'logo_img_alt' => '',
+'logo_img_alt' => 'VSP',
 
     /*
     |--------------------------------------------------------------------------
@@ -298,17 +296,15 @@ return [
     |
     */
 
-    'menu' => [
+   'menu' => [
 
     [
         'text' => 'Dashboard',
         'url'  => 'dashboard',
-        'icon' => 'fas fa-gauge-high',
+        'icon' => 'fas fa-tachometer-alt',
     ],
 
-    [
-        'header' => 'PRINTER MANAGEMENT',
-    ],
+    ['header' => 'PRINTER MANAGEMENT'],
 
     [
         'text' => 'Printers',
@@ -334,21 +330,20 @@ return [
         'icon' => 'fas fa-truck',
     ],
 
-    [
-        'header' => 'REPORTS',
-    ],
+    ['header' => 'REPORTS'],
 
     [
         'text' => 'Reports',
         'url'  => 'reports',
-        'icon' => 'fas fa-chart-line',
+        'icon' => 'fas fa-chart-bar',
     ],
 
     [
         'text' => 'Settings',
-        'url'  => 'settings',
-        'icon' => 'fas fa-gear',
+        'url'  => '#',
+        'icon' => 'fas fa-cog',
     ],
+
 ],
     /*
     |--------------------------------------------------------------------------
